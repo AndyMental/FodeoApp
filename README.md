@@ -1,24 +1,6 @@
-# README
+# Project Document
+https://docs.google.com/document/d/1IpZU1gvTSVokADxrrwI3ThEw7QSe4M50w4xltnBZU0w/edit?ts=5ba39da8
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Invoice and offer will have this feeling: https://docs.google.com/document/d/1Q5p3pJOa207zMAqr1Nk0kYVqlF_lfWNdj_jDEjlkrL0/edit?usp=sharing
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Online payment gateway integration (https://doc.gopay.com/en/ )
