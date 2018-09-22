@@ -70,5 +70,3 @@ gem 'sass-rails', '~> 5.0'
 
 # Use Stripe for payments
 gem "stripe"
-
-gem 'jquery-raty-rails'
