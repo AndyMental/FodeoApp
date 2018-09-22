@@ -5,6 +5,8 @@ class ChargesController < ApplicationController
 
   def create
 
+    Stripe.api_key = "sk_test_UKHIg13rvQgHPg15csqrGzCq"
+
     customer = Stripe::Customer.create(
       :email => params[:stripeEmail],
       :source  => params[:stripeToken]
