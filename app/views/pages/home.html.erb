@@ -1,0 +1,46 @@
+<div class="jumbotron">
+  <div class="overlay">
+    <div class="container">
+
+      <div class="row">
+        <h1>What do you need completed?</h1>
+        <br>
+        <h2>Browse. Buy. Done.</h2>
+      </div><!-- row -->
+
+      <%= render 'search/form' %>
+
+    </div><!-- container -->
+  </div><!-- overlay -->
+</div><!-- hero -->
+
+<div class="container section">
+
+  <h1 class="text-center">Newest Gigs</h1>
+  <hr>
+  <div class="row">
+
+    <% @services.each do |service| %>
+      <div class="col-xs-6 col-md-3">
+        <div class="panel panel-default">
+          <%= link_to(service) do %>
+            <div class="panel-heading fill">
+              <%= image_tag(service.image.url(:medium), class: "img-responsive") %>
+            </div>
+            <div class="panel-body fill">
+              <h3><%= service.title %></h3>
+              <h4>$<%= service.price %></h4>
+              <div class="panel-primary-overlay-up">
+                <div class="padding-left-15">
+                  <h3><%= service.requirements %></h3>
+                  <h3><%= pluralize(service.revisions, "revision") + " allowed" %></h3>
+                </div>
+              </div>
+            </div>
+          <% end %>
+        </div>
+      </div>
+    <% end %>
+
+  </div><!-- row -->
+</div><!-- container -->

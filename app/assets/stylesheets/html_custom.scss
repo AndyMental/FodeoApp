@@ -1,0 +1,56 @@
+body {
+  background-color: #F7F7F7;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizelegibility;
+}
+
+label {
+  font-size: 17px;
+  font-weight: 500;
+  color: #333333;
+  text-transform: uppercase;
+}
+
+select {
+  background-color: #FFFFFF;
+  border: 1px solid #CCCCCC;
+  border-radius: 2px;
+  padding: 10px;
+  width: 100px;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+.select-control {
+  font-size: 16px;
+  position: relative;
+  display: block;
+  &:before {
+    content: '\25bc';
+    font-size: 16px;
+    top: 10px;
+    left: 80px;
+    position: absolute;
+    color: #CCCCCC;
+    transform: scale(0.84, 0.42);
+    pointer-events: none;
+  }
+}
+
+.padding-left-15 {
+  padding-left: 15px;
+  // margin: auto;
+}
+
+.auth-form {
+  // margin-top: 50px; # using <br> instead of margin-top
+  background: white;
+  border: 1px solid #CCCCCC;
+  border-radius: 5px;
+  padding: 10px 30px;
+}
+
+.navbar-avatar {
+  width: 22px;
+}

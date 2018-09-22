@@ -1,0 +1,111 @@
+.alert-success, .alert-info, .alert-notice {
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+    color: #468847;
+    text-align: left;
+ }
+
+.alert-danger, .alert-warning, .alert-alert, .alert-error {
+    background-color: #f2dede;
+    border-color: #eed3d7;
+    color: #b94a48;
+    text-align: left;
+ }
+
+.navbar {
+  margin-bottom: 0px;
+}
+
+.img-average-rating-stars {
+  margin: 8px 10px 0px 0px;
+}
+
+.btn-lg {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 15px 35px;
+  margin: 0;
+  display: inline-block;
+}
+
+.btn-success {
+  background-color: #00b22d;
+}
+
+.btn.btn-facebook {
+  background: #3B5998;
+  border-color: #3B5998;
+  color: #FFFFFF;
+  opacity: 0.95;
+}
+
+.btn.btn-facebook:hover {
+  border-color: #000000;
+  color: #FFFFFF;
+  opacity: 1;
+}
+
+.jumbotron {
+  background: image-url('homepage_jumbotron.jpg') no-repeat center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 400px;
+  text-align: center;
+  .overlay {
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: inherit;
+    width: inherit;
+    background-color: rgba(0,0,0,0.5); /*dim the background*/
+    .container {
+      .row {
+        h1 {
+          color: #FFFFFF;
+          margin-top: 85px;
+          font-size: 38px;
+          font-weight: 600;
+        }
+        h2 {
+          color: #FFFFFF;
+          font-size: 24px;
+          font-weight: 400;
+        }
+      }
+    }
+  }
+}
+
+.panel.panel-default {
+  a, a:hover {
+    text-decoration: none;
+    color: #333;
+  }
+  .panel-heading, .panel-footer {
+    background-color: #FFFFFF;
+  }
+  .panel-heading.fill {
+    padding: 0;
+    img {
+      width: 100%;
+      // width: 230px;
+      max-height: 140px;
+      // height: 100%;
+    }
+  }
+  .panel-body.fill {
+    h3 {
+      padding-bottom: 10px;
+      font-weight: 400;
+      font-size: 18px;
+    }
+    h4 {
+      color: #00B22D;
+      // padding: 0px 10px;
+      // font-size: 19px;
+    }
+  }
+}
