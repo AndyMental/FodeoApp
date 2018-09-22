@@ -61,7 +61,7 @@ gem 'omniauth-facebook'
 
 # Use Paperclip & rmagick for image uploads
 gem "paperclip"
-gem 'rmagick', '2.13.2', group: :production
+gem 'rmagick'
 
 # Use Bootstrap & SCSS for stylesheets
 gem 'bootstrap-sass', '~> 3.3.6'
